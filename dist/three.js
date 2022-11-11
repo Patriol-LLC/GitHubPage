@@ -7,7 +7,7 @@ const scene = new THREE.Scene()
 // Objects
 const geometry = new THREE.BoxGeometry()
 const material = new THREE.MeshBasicMaterial({
-    color: 0x00ff00,
+    color: 0xffffff,
 })
 
 const cube = new THREE.Mesh(geometry, material)
